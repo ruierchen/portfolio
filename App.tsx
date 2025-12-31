@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import { PROJECTS, EXPERIENCES, SKILLS, BLOG_POSTS } from './constants';
 import SnakeGame from './components/SnakeGame';
+import profileImg from './assets/profile.jpg';
+import readIMG from './assets/read.jpg';
 
 const ProjectCard = ({ project }: { project: any }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -136,7 +138,7 @@ const App: React.FC = () => {
         <div className="w-48 h-48 lg:w-56 lg:h-56 rounded-3xl overflow-hidden border-2 border-cyan-500/30 bg-slate-900 group shadow-[0_0_30px_rgba(34,211,238,0.15)] shrink-0">
           {/* Avatar / Profile Image Placeholder */}
           <img 
-            src="https://img.freepik.com/free-vector/cute-boy-wearing-suit-cartoon-character_1308-164478.jpg"
+            src={profileImg}
             alt="Profile Avatar" 
             className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
           />
@@ -249,7 +251,7 @@ const App: React.FC = () => {
                 <div className="flex items-center gap-6 mb-8 glass-card p-8 rounded-3xl border-cyan-500/30 relative overflow-hidden">
                   <div className="w-24 h-24 rounded-2xl overflow-hidden border border-slate-800 shrink-0 bg-slate-900">
                     <img 
-                      src="https://img.freepik.com/free-vector/cartoon-boy-reading-book-isolated_1308-164479.jpg"
+                      src={readIMG}
                       alt="Blog Mascot" 
                       className="w-full h-full object-cover"
                     />
