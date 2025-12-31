@@ -1,5 +1,7 @@
 
 import { Category, Post, Experience, BlogPost } from './types';
+import profileImg from './assets/profile.jpg';
+import readImg from './assets/read.jpg';
 
 export const BLOG_POSTS: BlogPost[] = [
   {
@@ -8,7 +10,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Onboarding at RBC T&O",
     summary: "Started my journey at RBC! Diving deep into the Global Security data lake and learning the nuances of medallion architecture.",
     tag: "Work Log",
-    githubLink: "https://github.com/ruier-c"
+    githubLink: "https://github.com/ruierchen"
   },
   {
     id: "b2",
@@ -80,7 +82,7 @@ export const PROJECTS: DetailedProject[] = [
     ],
     techStack: ["Java", "Scala", "Apache Spark", "Distributed Systems"],
     tags: ["Data", "Big Data", "Spark"],
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
+    image: profileImg
   },
   {
     id: "proj-2",
@@ -95,7 +97,7 @@ export const PROJECTS: DetailedProject[] = [
     ],
     techStack: ["Python", "NLP", "BERT", "PyTorch", "GPU Computing"],
     tags: ["AI", "NLP", "PyTorch"],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"
+    image: readImg
   },
   {
     id: "proj-3",
@@ -110,7 +112,7 @@ export const PROJECTS: DetailedProject[] = [
     ],
     techStack: ["PyTorch Lightning", "Computer Vision", "Deep Learning"],
     tags: ["CV", "Transformers", "DL"],
-    image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=800"
+    image: profileImg
   }
 ];
 

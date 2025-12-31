@@ -257,8 +257,8 @@ const App: React.FC = () => {
                     />
                   </div>
                   <div>
-                    <h2 className="tech-font text-2xl text-white mb-2">NEURAL_DEBUGLOG</h2>
-                    <p className="text-slate-500 text-sm mono-font italic tracking-wider uppercase">// Syncing status stream from github.cloud.local</p>
+                    <h2 className="tech-font text-2xl text-white mb-2">EVENTS_BLOG</h2>
+                    <p className="text-slate-500 text-sm mono-font italic tracking-wider uppercase">// UPDATE WHAT HAPPENED IN MY LIFE</p>
                   </div>
                   <div className="absolute top-[-20%] right-[-5%] w-40 h-40 bg-cyan-500/5 rounded-full blur-3xl"></div>
                 </div>
@@ -309,11 +309,11 @@ const App: React.FC = () => {
               <div className="space-y-6 mono-font text-sm">
                 <div className="flex flex-col gap-1">
                   <span className="text-slate-500 text-[10px] uppercase">GITHUB_REPOSITORY</span>
-                  <a href="https://github.com/ruier-c" className="text-cyan-400 hover:text-white transition-colors">github.com/ruier-c</a>
+                  <a href="https://github.com/ruierchen" className="text-cyan-400 hover:text-white transition-colors">github.com/ruierchen</a>
                 </div>
                 <div className="flex flex-col gap-1">
                   <span className="text-slate-500 text-[10px] uppercase">SOCIAL_UPLINK</span>
-                  <a href="#" className="text-cyan-400 hover:text-white transition-colors">linkedin.com/in/ruier-chen</a>
+                  <a href="#" className="text-cyan-400 hover:text-white transition-colors">linkedin.com/in/ruier-c-82a149330/</a>
                 </div>
                 <div className="flex flex-col gap-1">
                   <span className="text-slate-500 text-[10px] uppercase">DIRECT_COMMS</span>
