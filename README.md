@@ -1,6 +1,6 @@
-# CyberFolio - Tech-Style Portfolio
+# Portfolio
 
-A futuristic, tech-inspired personal portfolio built with React, TypeScript, and Vite.
+A futuristic personal portfolio built with React, TypeScript, and Vite.
 
 ## Features
 
