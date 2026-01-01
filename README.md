@@ -25,3 +25,6 @@ A futuristic personal portfolio built with React, TypeScript, and Vite.
 - Google AI Studio. 
 What a builder.
 - ChatGPT
+
+## Further change
+Update project, change suitable UI.
