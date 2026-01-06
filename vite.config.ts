@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig(({ mode }) => {
 
-  const base = mode === 'production' ? ''/portfolio/' : '/';
+  const base = mode === 'production' ? '/portfolio/' : '/';
   
   return {
     base,
