@@ -10,7 +10,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Full-Stack Developing",
     summary: "Trying out full-stack development with a focus on Kotlin. Building several projects to solidify my understanding of both frontend and backend technologies.",
     tag: "Project"
-  }
+  },
   {
     id: "b1",
     date: "2025-05-20",
