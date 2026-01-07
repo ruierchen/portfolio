@@ -5,6 +5,13 @@ import readImg from './assets/read.jpg';
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: "b0",
+    date: "2026-01-06",
+    title: "Full-Stack Developing",
+    summary: "Trying out full-stack development with a focus on Kotlin. Building several projects to solidify my understanding of both frontend and backend technologies.",
+    tag: "Project"
+  }
+  {
     id: "b1",
     date: "2025-05-20",
     title: "Onboarding at RBC T&O",
